@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+*.log
+
+# Keep _temp dirs tracked but not their contents
+BLANK-OS/_temp/*
+EXAMPLE-OS/_temp/*
+!BLANK-OS/_temp/.gitkeep
+!EXAMPLE-OS/_temp/.gitkeep
