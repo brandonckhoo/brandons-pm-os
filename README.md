@@ -8,37 +8,9 @@ Inspired by [Carl's Product OS](https://github.com/carlvellotti/carls-product-os
 
 ## How It Works
 
-```mermaid
-flowchart LR
-    subgraph CAPTURE["📥 CAPTURE"]
-        direction TB
-        T["📋 Tasks/"]
-        P["📁 Projects/"]
-        M["📅 Meetings/"]
-        K["📚 Knowledge/"]
-        R["🔖 _Registry/"]
-    end
+![Brandon OS Architecture](docs/brandon-os-diagram.png)
 
-    subgraph BRAIN["🤖 CLAUDE BRAIN"]
-        direction TB
-        S1["/standup"]
-        S2["/weekly-update"]
-        S3["/new-post"]
-        S4["/ship-check"]
-    end
-
-    subgraph SHIP["🚀 SHIP"]
-        direction TB
-        O1["🌐 Portfolio"]
-        O2["✍️ Substack"]
-        O3["💼 PM Role"]
-        O4["🛠️ Side Projects"]
-    end
-
-    CAPTURE -->|context| BRAIN -->|output| SHIP
-```
-
-> View the full architecture diagram: [`docs/brandon-os.excalidraw`](docs/brandon-os.excalidraw) — open in [Excalidraw](https://excalidraw.com) or the VS Code Excalidraw extension.
+> Edit the diagram: [`docs/brandon-os.excalidraw`](docs/brandon-os.excalidraw) — open in [Excalidraw](https://excalidraw.com) or the VS Code Excalidraw extension.
 
 ---
 
