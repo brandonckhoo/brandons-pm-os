@@ -143,3 +143,9 @@ MCPs (Model Context Protocol servers) give Claude direct access to your tools. S
 Built by [Brandon Khoo](https://brandonkhoo-portfolio.vercel.app) — PM focused on AI-powered products and agentic AI.
 
 Writing about the future of AI agents at [Agent Goose on Substack](https://agentgoose.substack.com).
+
+---
+
+## License
+
+MIT. Fork it, adapt it, make it yours.
